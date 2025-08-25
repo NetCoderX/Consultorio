@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consultorio.Domain", "Consu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consultorio.Test", "Consultorio.Test\Consultorio.Test.csproj", "{C1534D40-CF15-406E-9159-7A22E82D938E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consultorio.Application", "Consultorio.Application\Consultorio.Application.csproj", "{92C2B308-9D2E-477F-B0F0-0C6AB7F89D97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{C1534D40-CF15-406E-9159-7A22E82D938E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1534D40-CF15-406E-9159-7A22E82D938E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1534D40-CF15-406E-9159-7A22E82D938E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92C2B308-9D2E-477F-B0F0-0C6AB7F89D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C2B308-9D2E-477F-B0F0-0C6AB7F89D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C2B308-9D2E-477F-B0F0-0C6AB7F89D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C2B308-9D2E-477F-B0F0-0C6AB7F89D97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5D4D7FAE-CC98-485C-BA82-32915AD74F6E} = {BA44AD22-3C95-4BA8-AFFE-A5AC7A4C6B9F}
 		{C1534D40-CF15-406E-9159-7A22E82D938E} = {CD4B928E-D964-4E9D-AC21-F200C1B5C67C}
+		{92C2B308-9D2E-477F-B0F0-0C6AB7F89D97} = {BA44AD22-3C95-4BA8-AFFE-A5AC7A4C6B9F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {17E9D276-BB32-42D8-9CA8-B99A0EF0E856}
