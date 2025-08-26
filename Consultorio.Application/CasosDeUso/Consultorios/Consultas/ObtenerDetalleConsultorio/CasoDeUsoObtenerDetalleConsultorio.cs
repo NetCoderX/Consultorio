@@ -18,6 +18,9 @@ namespace Consultorio.Application.CasosDeUso.Consultorios.Consultas.ObtenerDetal
             var consultorio = await _repositoryConsultorio.ObtenerPorId(request.Id);
             if (consultorio is null)
                 throw new ExcepcionNoEncontrado();
+
+
+
             return consultorio.ADto();
         }
     }
