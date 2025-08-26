@@ -1,0 +1,13 @@
+@Consultorio.API_HostAddress = http://localhost:5227/api/consultorios
+
+GET {{Consultorio.API_HostAddress}}/0198E502-E8D6-780B-8DBC-0A3FA099B196
+Accept: application/json
+
+###
+
+POST {{Consultorio.API_HostAddress}}
+Content-Type: application/json
+
+{
+    "nombre": "Consultorio Central"
+}
